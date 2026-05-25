@@ -1,0 +1,12 @@
+torch>=2.3
+torchvision
+diffusers
+transformers
+accelerate
+numpy
+pillow
+tqdm
+opencv-python
+imageio
+imageio-ffmpeg
+safetensors
