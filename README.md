@@ -4,8 +4,12 @@ This repository contains the code used for the ICME 2026 Low-Bit-width
 Large-Model Quantization Challenge, Track 1. It applies post-training
 quantization to Wan2.2-I2V-A14B with the official HiFloat4 simulator.
 
-hugging face: https://huggingface.co/ReopenAI/Wan2.2-I2V-14B-HiF4
+hugging face: https://huggingface.co/ReopenAI/Wan2.2-I2V-14B-HiF4 
+
 modelscope: https://modelscope.cn/models/wjfwjf/Wan2.2-I2V-14B-HiF4
+
+HiF4: https://github.com/global-computing-consortium/HiFloat4
+
 
 ## Method
 
