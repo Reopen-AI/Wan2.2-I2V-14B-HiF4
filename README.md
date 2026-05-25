@@ -4,7 +4,11 @@ This repository contains the code used for the ICME 2026 Low-Bit-width
 Large-Model Quantization Challenge, Track 1. It applies post-training
 quantization to Wan2.2-I2V-A14B with the official HiFloat4 simulator.
 
+hugging face: https://huggingface.co/ReopenAI/Wan2.2-I2V-14B-HiF4
+modelscope: https://modelscope.cn/models/wjfwjf/Wan2.2-I2V-14B-HiF4
+
 ## Method
+
 
 - Target model: Wan2.2-I2V-A14B.
 - Quantized experts: both `low_noise_model` and `high_noise_model`.
@@ -178,17 +182,3 @@ directories and compute relative score drop:
 ```text
 drop = (bf16_score - quantized_score) / bf16_score
 ```
-
-## Hugging Face Weights
-
-Upload the following files to a public Hugging Face model repository:
-
-```bash
-outputs/i2v_hif4_quant_state.pt
-outputs/i2v_hif4_quantized_weights_low_noise_model.pt
-outputs/i2v_hif4_quantized_weights_high_noise_model.pt
-README.md or MODEL_CARD.md
-```
-
-The model card template in [MODEL_CARD.md](MODEL_CARD.md) can be used as the
-Hugging Face repository README.
